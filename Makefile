@@ -9,9 +9,5 @@ install dependecies:
 	pnpm add zod @hookform/resolvers react-hook-form tailwind-merge
 	pnpm add react-hot-toast
 
-commands:
-	docker-compose up -d
-	docker-compose down
-	pnpm prisma init --datasource-provider postgresql
-	pnpm prisma migrate dev --name init 
+
 
